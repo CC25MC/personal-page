@@ -1410,6 +1410,12 @@ h6 {
   }
 }
 @media (max-width: 768px) {
+  .cursor {
+    display: none;
+  }
+  .cursor-outer {
+    display: none;
+  }
   .tokyo_tm_home .details .name {
     font-size: 30px;
   }
