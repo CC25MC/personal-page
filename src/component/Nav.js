@@ -40,7 +40,9 @@ export const Nav = ({ children }) => {
                       onMouseLeave={textLeave}
                       to={item}
                     >
-                      {item === "/" ? "Home" : item.slice(1)}
+                      {item === "/"
+                        ? idiom(language, "Home")
+                        : idiom(language, item.slice(1))}
                     </Link>
                   </li>
                 ))}
