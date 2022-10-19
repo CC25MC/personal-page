@@ -88,6 +88,7 @@ export const en = {
   "Contact.email": "Email",
   "Contact.message": "Message",
   "Contact.button": "Send Message",
+  "Contact.empty_notice": "Please Fill Required Fields"
 };
 
 export const es = {
@@ -166,6 +167,7 @@ export const es = {
   "Contact.email": "Correo",
   "Contact.message": "Mensaje",
   "Contact.button": "Enviar Mensaje",
+  "Contact.empty_notice": "Por favor complete todos los campos requeridos"
 };
 
 export const idiom = (language, title) => {
